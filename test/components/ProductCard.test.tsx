@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer'
 import { ProductCard } from '../../src/components';
 import { product1 } from '../data/products';
 
-const {act} = renderer;
+// const {act} = renderer;
 
 describe('ProductCard', () => {
     test('debe mostrar el componente correctamente', () => { 
